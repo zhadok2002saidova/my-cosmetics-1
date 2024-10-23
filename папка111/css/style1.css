@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #bdb76b;
+  align-items: center;
+}
+.nav1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 80px;
+}
+.nav1 a {
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+}
+
+.regisrt a {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  display: inline-block;
+  background-color: beige;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.login:hover {
+  background-color: #bdb76b;
+}
+
+.signup {
+  display: inline-block;
+  background-color: beige;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.signup:hover {
+  background-color: #bdb76b;
+}
+
+.logo {
+  transform: rotate(-20deg);
+}
+
+.video1 {
+  width: 450p;
+  height: 500px;
+}
+
+.main {
+  display: flex;
+  box-shadow: -2px 21px 21px 1px rgba(34, 60, 80, 0.12);
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.main2 {
+  background-color: beige;
+}
+.button1 {
+  display: inline-block;
+  background-color: #bdb76b;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button1:hover {
+  background-color: beige;
+}
+
+.button2 {
+  display: inline-block;
+  background-color: #bdb76b;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button2:hover {
+  background-color: beige;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.photo {
+  width: 450px;
+  padding: auto;
+}
+
+.text-container {
+  padding: 20px;
+  max-width: 50%;
+}
+.learn-more {
+  display: inline-block;
+  background-color: #bdb76b;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.learn-more:hover {
+  background-color: beige;
+}
+
+footer {
+  background-color: #bdb76b;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
